@@ -1,0 +1,145 @@
+(export 
+  (version "D")
+  (design
+    (source "led_flashlight.py")
+    (date "11/23/2025 07:58 PM")
+    (tool "SKiDL (2.2.0)")
+    (sheet
+      (number 1)
+      (name "/")
+      (tstamps "/")
+      (title_block
+        (title)
+        (company)
+        (rev)
+        (date)
+        (source "../led_flashlight.py")
+        (comment
+          (number "1")
+          (value ""))
+        (comment
+          (number "2")
+          (value ""))
+        (comment
+          (number "3")
+          (value ""))
+        (comment
+          (number "4")
+          (value ""))
+        (comment
+          (number "5")
+          (value ""))
+        (comment
+          (number "6")
+          (value ""))
+        (comment
+          (number "7")
+          (value ""))
+        (comment
+          (number "8")
+          (value ""))
+        (comment
+          (number "9")
+          (value "")))))
+  (components
+    (comp
+      (ref "B1")
+      (value "Battery_Cell")
+      (description "Single-cell battery")
+      (footprint "Battery_Cell")
+      (fields
+        (field
+          (name "Description") "Single-cell battery")
+        (field
+          (name "Footprint") "Battery_Cell")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "UIfdbW7x5h")
+        (field
+          (name "SKiDL Line") "led_flashlight.py:12"))
+      (libsource
+        (lib "NO_LIB")
+        (part "Battery_Cell"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "f6b935d6-0336-5cbc-bb32-bc0bcbab7772"))
+    (comp
+      (ref "D1")
+      (value "LED")
+      (description "Light emitting diode")
+      (footprint "LED_0603")
+      (fields
+        (field
+          (name "Description") "Light emitting diode")
+        (field
+          (name "Footprint") "LED_0603")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "iwZ3EqCk6i")
+        (field
+          (name "SKiDL Line") "led_flashlight.py:14"))
+      (libsource
+        (lib "NO_LIB")
+        (part "LED"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "f0a27287-3a79-5620-b48d-6718d66959e5"))
+    (comp
+      (ref "R1")
+      (value "330")
+      (description "Resistor")
+      (footprint "R_0402")
+      (fields
+        (field
+          (name "Description") "Resistor")
+        (field
+          (name "Footprint") "R_0402")
+        (field
+          (name "Datasheet") "~")
+        (field
+          (name "SKiDL Tag") "gXzsdio7eJ")
+        (field
+          (name "SKiDL Line") "led_flashlight.py:13"))
+      (libsource
+        (lib "NO_LIB")
+        (part "R"))
+      (sheetpath
+        (names "/")
+        (tstamps "/"))
+      (component_classes)
+      (tstamps "e5852f7b-7b71-5b2d-8618-cf440f041bf7")))
+  (nets
+    (net
+      (code 1)
+      (name "GND")
+      (class "Default")
+      (node
+        (ref "B1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "D1")
+        (pin "1")
+        (pintype "PASSIVE")))
+    (net
+      (code 2)
+      (name "V+")
+      (class "Default")
+      (node
+        (ref "B1")
+        (pin "1")
+        (pintype "PASSIVE"))
+      (node
+        (ref "D1")
+        (pin "2")
+        (pintype "PASSIVE"))
+      (node
+        (ref "R1")
+        (pin "1")
+        (pintype "PASSIVE")))))

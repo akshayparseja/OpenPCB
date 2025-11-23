@@ -1,0 +1,23 @@
+WARNING: KICAD6_SYMBOL_DIR environment variable is missing, so the default KiCad symbol libraries won't be searched. @ [/Users/akshayparseja/Documents/oss/OpenPCB/<frozen importlib._bootstrap_external>:850=>/Users/akshayparseja/Documents/oss/OpenPCB/<frozen importlib._bootstrap>:228]
+WARNING: fp-lib-table file was not found. Component footprints are not available.
+WARNING: fp-lib-table file was not found. Component footprints are not available.
+WARNING: fp-lib-table file was not found. Component footprints are not available.
+ERROR: Can't open file: Device.
+ @ [/Users/akshayparseja/Documents/oss/OpenPCB/skidl/led_flashlight.py:12]
+WARNING: Could not load KiCad schematic library "Device", falling back to backup library. @ [/Users/akshayparseja/Documents/oss/OpenPCB/skidl/led_flashlight.py:12]
+ERROR: Can't open file: Device.
+ @ [/Users/akshayparseja/Documents/oss/OpenPCB/skidl/led_flashlight.py:13]
+WARNING: Could not load KiCad schematic library "Device", falling back to backup library. @ [/Users/akshayparseja/Documents/oss/OpenPCB/skidl/led_flashlight.py:13]
+ERROR: Can't open file: Device.
+ @ [/Users/akshayparseja/Documents/oss/OpenPCB/skidl/led_flashlight.py:14]
+WARNING: Could not load KiCad schematic library "Device", falling back to backup library. @ [/Users/akshayparseja/Documents/oss/OpenPCB/skidl/led_flashlight.py:14]
+WARNING: Missing tag on Battery_Cell instantiated at /Users/akshayparseja/Documents/oss/OpenPCB/skidl/led_flashlight.py:12.
+WARNING: Random tag UIfdbW7x5h generated for Battery_Cell.
+WARNING: Missing tag on R instantiated at /Users/akshayparseja/Documents/oss/OpenPCB/skidl/led_flashlight.py:13.
+WARNING: Random tag gXzsdio7eJ generated for R.
+WARNING: Missing tag on LED instantiated at /Users/akshayparseja/Documents/oss/OpenPCB/skidl/led_flashlight.py:14.
+WARNING: Random tag iwZ3EqCk6i generated for LED.
+WARNING: Missing tag on  instantiated at /Users/akshayparseja/Documents/oss/OpenPCB/<frozen importlib._bootstrap>:228.
+INFO: 10 warnings found while generating netlist.
+INFO: 0 errors found while generating netlist.
+
